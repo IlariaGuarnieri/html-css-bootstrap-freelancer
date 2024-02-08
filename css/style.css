@@ -16,3 +16,9 @@ ul li{
   height: 500px;
   width: 100%;
 }
+
+.col-12{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
