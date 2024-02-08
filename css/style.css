@@ -1,0 +1,17 @@
+[class^="container"]{
+  background-color: rgba(212, 0, 250, 0.3);
+  border: 1px solid black;
+}
+
+header{
+  height: 80px;
+}
+
+ul li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.jumbotron{
+  height: 300px;
+}
