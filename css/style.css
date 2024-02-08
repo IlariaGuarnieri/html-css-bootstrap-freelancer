@@ -3,6 +3,10 @@
   border: 1px solid black;
 }
 
+.col-4{
+border: 1px solid black;
+}
+
 header{
   height: 80px;
 }
@@ -12,13 +16,16 @@ ul li{
   text-decoration: none;
 }
 
+ul{
+  margin: 0px !important;
+}
+
 .jumbotron{
   height: 500px;
   width: 100%;
 }
 
-.col-12{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.margin-top{
+  margin-top: 550px;
+  height: 300px;
 }
