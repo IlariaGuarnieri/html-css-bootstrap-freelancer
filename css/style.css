@@ -1,7 +1,51 @@
-[class^="container"]{
-  background-color: rgba(212, 0, 250, 0.3);
+.my-bg{
+  background-color: #2c3e50 !important;
+}
+
+.debug{
+  background-color: rgba(187, 128, 179, 0.2);
   border: 1px solid black;
 }
+
+#jumbotron{
+  background-color: #31bc9c;
+  padding: 60px 0;
+}
+
+.header{
+  height: 70px;
+  background-color: #2c3e50;
+}
+
+section{
+  padding: 60px 0;
+}
+
+.sc-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#portfolio .sc-card{
+  background-color: #31bc9c;
+  min-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .col-12, 
 .col-6, 
@@ -13,9 +57,7 @@ border: 1px solid black;
 background-color: rgb(215, 250, 238);
 }
 
-header{
-  height: 80px;
-}
+
 
 ul li{
   list-style: none;
@@ -26,12 +68,40 @@ ul{
   margin: 0px !important;
 }
 
-.jumbotron{
-  height: 500px;
-  width: 100%;
-}
 
 .margin-top{
   margin-top: 550px;
   height: 300px;
+}
+
+.my_container{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.my-form input,
+.my-form textarea{
+  border-top: none;
+  border-right: none;
+  border-left: none ;
+  border-radius: 0;
+}
+
+.my-form input:focus,
+.my-form textarea:focus{
+  box-shadow: none;
+}
+
+.my-form input::placeholder,
+.my-form textarea::placeholder{
+  color: #6A7480;
+}
+
+.my-button{
+  background-color: #1ABB9C;
+  border: none;
+}
+
+.my-button:hover{
+  background-color: #1ABB9C;
 }
