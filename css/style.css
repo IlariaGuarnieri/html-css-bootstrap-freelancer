@@ -39,6 +39,10 @@ section{
   color: white;
 }
 
+.c-white{
+  color: white;
+}
+
 
 #portfolio .sc-card{
   min-height: 300px;
@@ -86,4 +90,20 @@ section{
 .my-container{
   margin: 0 auto;
   width: 60%;
+}
+
+.my-form input,
+.my-form input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.bc-footer{
+  background-color: #3A546D ;
+}
+
+.footer-bottom{
+  background-color: #2C3E50;
 }
